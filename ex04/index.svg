@@ -1,0 +1,40 @@
+<svg version="1.1" width="500" height="1900" xmlns="http://www.w3.org/2000/svg">
+    <circle class="html5" cx="250" cy="250" fill="transparent" r="100" stroke="red" stroke-width="20"/>
+    <circle class="css3" cx="250" cy="750" fill="transparent" r="100" stroke="blue" stroke-width="20"/>
+    <circle class="js1" cx="250" cy="1250" fill="transparent" r="100" stroke="yellow" stroke-width="20"/>
+    <circle class="js2" cx="250" cy="1750" fill="transparent" r="100" stroke="green" stroke-width="20"/>
+    <style>
+        circle {
+        stroke-dasharray: 314.5;
+        stroke-dashoffset: 1884.9;
+        animation: load 6s linear infinite;
+        }
+
+        .html5{
+        background-image: url(image/html.png);
+        background-position:center;
+        }
+
+        .css3{
+        background-image: url(image/css.jpg);
+        background-position:center;
+        }
+
+        .js1{
+        background-image: url(image/js1.png);
+        background-position:center;
+        }
+
+        .js2{
+        background-image: url(image/js2.png);
+        background-position:center;
+        }
+
+        @keyframes load {
+        to {
+        stroke-dashoffset: 0;
+        }
+        }
+    </style>
+
+</svg>

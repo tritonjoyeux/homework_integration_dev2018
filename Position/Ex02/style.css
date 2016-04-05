@@ -1,0 +1,64 @@
+html, body {
+  margin: 0;
+  padding: 0; }
+
+html {
+  background-color: black; }
+
+#content {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  background-color: white; }
+
+.form {
+  display: inline-block;
+  border: solid 1px cadetblue;
+  width: 300px;
+  height: 300px; }
+
+.title {
+  margin-top: 10px;
+  font-size: 25px;
+  margin-bottom: 10px; }
+
+.formInput {
+  display: inline-block;
+  width: 200px;
+  text-align: left; }
+
+.texte {
+  margin-bottom: 10px;
+  border-radius: 3px;
+  width: 200px;
+  height: 20px; }
+
+#submitForm {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 175px;
+  border-radius: 10px;
+  height: 40px;
+  background-image: linear-gradient(60deg, orange, red);
+  color: white; }
+
+#semiPage {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  visibility: hidden; }
+
+#popUp {
+  padding-top: 10px;
+  font-size: 30px;
+  vertical-align: middle;
+  width: 250px;
+  height: 50px;
+  display: inline-block;
+  background-color: beige;
+  border-radius: 20px; }
+
+/*# sourceMappingURL=style.css.map */

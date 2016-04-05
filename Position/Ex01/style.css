@@ -1,0 +1,56 @@
+.firstBlock {
+  width: 500px;
+  height: 500px;
+  background-color: red;
+  text-align: center;
+  line-height: 500px;
+  color: white; }
+
+.secondBlock, .thirdBlock, .quadBlock {
+  width: 500px;
+  height: 500px;
+  background-color: red;
+  display: table-cell;
+  vertical-align: middle;
+  color: white; }
+
+.thirdBlock, .quadBlock {
+  position: relative; }
+
+.center {
+  text-align: center; }
+
+.blockTopLeft, .blockTopRight, .blockBotLeft, .blockBotRight {
+  background-color: grey;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  font-size: 10px; }
+
+.blockTopLeft {
+  display: table-cell;
+  vertical-align: middle;
+  top: 0;
+  left: 0;
+  background-color: white;
+  color: black; }
+
+.blockTopRight {
+  top: 0;
+  right: 0;
+  background-color: green; }
+
+.blockBotLeft {
+  bottom: 0;
+  left: 0; }
+
+.blockBotRight {
+  display: table-cell;
+  vertical-align: middle;
+  bottom: 0;
+  right: 0;
+  background-color: black;
+  color: white;
+  position: absolute; }
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,47 @@
+html, body {
+  margin: 0;
+  padding: 0; }
+
+body {
+  background-color: black; }
+
+#menu, #menu ul {
+  padding: 0;
+  margin: 0;
+  list-style: none; }
+
+#menu {
+  text-align: center; }
+
+#menu li {
+  display: inline-block; }
+
+#menu ul li {
+  display: inherit;
+  margin: 30px; }
+
+#menu a {
+  background-color: white;
+  color: black;
+  text-decoration: none;
+  display: block;
+  padding: 30px; }
+
+#menu li ul li a {
+  margin: 0; }
+
+#menu ul, #menu ul li ul {
+  color: black;
+  background-color: white;
+  position: absolute;
+  left: 500em;
+  text-align: left;
+  z-index: 1000; }
+
+#menu li:hover .firstFade {
+  left: auto; }
+
+#menu li ul li:hover .secondeFade {
+  left: auto; }
+
+/*# sourceMappingURL=style.css.map */

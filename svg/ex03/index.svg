@@ -1,0 +1,61 @@
+<svg version="1.1" width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+    <circle cx="250" cy="250" r="100" fill="yellow" stroke="yellow" stroke-width="70" />
+    <image href="the_best_man_of_all.png" height="150px" width="150px" />
+    <use href="the_best_man_of_all.png" x="0" y="30" />
+    <style>
+        circle {
+            stroke-dasharray: 1.8225;
+            stroke-dashoffset: 729;
+            animation: load 40s linear infinite;
+
+        }
+
+        @keyframes load {
+            to {
+                stroke-dashoffset: 5%;
+                fill: yellow;
+                stroke: yellow;
+            }
+            90%{
+                fill: yellow;
+                stroke: yellow;
+            }
+            80%{
+                fill: orange;
+                stroke: orange;
+            }
+            70%{
+                fill: yellow;
+                stroke: yellow;
+            }
+            60%{
+                fill: orange;
+                stroke: orange;
+            }
+            50%{
+                fill: yellow;
+                stroke: yellow;
+            }
+            40%{
+                fill: orange;
+                stroke: orange;
+            }
+            30%{
+                fill: yellow;
+                stroke: yellow;
+            }
+            20%{
+                fill: orange;
+                stroke: orange;
+            }
+            10%{
+                fill: yellow;
+                stroke: yellow;
+            }
+            from{
+                fill: orange;
+                stroke: orange;
+            }
+        }
+    </style>
+</svg>
